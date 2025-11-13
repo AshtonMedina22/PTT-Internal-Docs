@@ -87,9 +87,9 @@ export default function TermsPage() {
             <h1 className="text-2xl md:text-3xl font-bold text-brand-black mb-2">
               Acknowledgment of Terms and Policies
             </h1>
-            <div className="text-lg text-brand-gray">
+            <div className="text-lg text-brand-black">
               <p className="font-semibold">Party Time Texas Independent Contractor Company Policy & Guidelines</p>
-              <p className="mt-1">August 12th, 2025</p>
+              <p className="mt-1 text-gray-700">August 12th, 2025</p>
             </div>
           </div>
           
@@ -141,8 +141,8 @@ export default function TermsPage() {
           <main className="flex-1 max-w-4xl">
             <div className="bg-white border-2 border-brand-gray rounded-lg p-8 md:p-12 shadow-lg">
               <div className="mb-8">
-                <p className="text-brand-gray text-sm mb-2">Independent Contractor Company Policy & Guidelines</p>
-                <p className="text-brand-gray text-sm mb-4">Attachment 1 – Independent Contractor Company Policy & Guidelines</p>
+                <p className="text-gray-700 text-sm mb-2">Independent Contractor Company Policy & Guidelines</p>
+                <p className="text-gray-700 text-sm mb-4">Attachment 1 – Independent Contractor Company Policy & Guidelines</p>
                 <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
                   Terms & Conditions
                 </h1>

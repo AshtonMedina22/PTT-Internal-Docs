@@ -26,6 +26,27 @@ export default function Home() {
             Legal Documents
           </h1>
           
+          {/* Main Welcome Section */}
+          <div className="max-w-4xl mx-auto mb-16">
+            <div className="bg-white border-2 border-brand-gray rounded-lg p-8 shadow-lg">
+              <p className="text-brand-black text-lg leading-relaxed mb-4">
+                Welcome to the Party Time Texas Confidential Vendor Portal.
+              </p>
+              <p className="text-brand-black text-lg leading-relaxed mb-4">
+                This private portal contains key company policies, terms, and operating expectations for independent contractors and vendors who are engaged for events, services, or special assignments with our team.
+              </p>
+              <p className="text-brand-black text-lg leading-relaxed mb-4">
+                Access to this site is provided exclusively to intended recipients for the purpose of reviewing the current policies and agreement terms. By continuing, you acknowledge this portal is private and may not be shared, forwarded, or discussed with third parties.
+              </p>
+              <p className="text-brand-black text-lg leading-relaxed mb-4">
+                After reviewing the content in each section, please complete and submit the acknowledgment form linked in your onboarding message to confirm your review and acceptance of these materials. Your agreement ensures we can move forward with your engagement in a compliant and coordinated way.
+              </p>
+              <p className="text-brand-black text-lg leading-relaxed">
+                If you have any questions, contact your assigned point of contact or email us directly at <a href="mailto:operations@partyTimeTexas.com" className="text-brand-red hover:underline font-semibold">operations@partyTimeTexas.com</a>.
+              </p>
+            </div>
+          </div>
+          
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             {/* Terms and Conditions Box */}
             <Link 
@@ -69,7 +90,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-6">
           <div className="text-center">
             <p className="text-brand-black font-semibold">
-              Party Time Texas 2025
+              © 2025 Party Time Texas · Confidential Vendor Portal · For Authorized Use Only · All Rights Reserved
             </p>
           </div>
         </div>

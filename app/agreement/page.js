@@ -87,9 +87,9 @@ export default function AgreementPage() {
             <h1 className="text-2xl md:text-3xl font-bold text-brand-black mb-2">
               Acknowledgment of Terms and Policies
             </h1>
-            <div className="text-lg text-brand-gray">
+            <div className="text-lg text-brand-black">
               <p className="font-semibold">Independent Contractor Agreement</p>
-              <p className="mt-1">August 12th, 2025</p>
+              <p className="mt-1 text-gray-700">August 12th, 2025</p>
             </div>
           </div>
           
@@ -141,11 +141,11 @@ export default function AgreementPage() {
           <main className="flex-1 max-w-4xl">
             <div className="bg-white border-2 border-brand-gray rounded-lg p-8 md:p-12 shadow-lg">
               <div className="mb-8">
-                <p className="text-brand-gray text-sm mb-2">ATTACHMENT 2: INDEPENDENT CONTRACTOR AGREEMENT</p>
+                <p className="text-gray-700 text-sm mb-2">ATTACHMENT 2: INDEPENDENT CONTRACTOR AGREEMENT</p>
                 <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
                   TERMS & CONDITIONS
                 </h1>
-                <p className="text-brand-gray italic">
+                <p className="text-gray-700 italic">
                   The following clauses are reproduced verbatim from the original Independent Contractor Agreement. Only formatting has been adjusted.
                 </p>
               </div>

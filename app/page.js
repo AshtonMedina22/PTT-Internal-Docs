@@ -96,7 +96,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-6">
           <div className="text-center">
             <p className="text-brand-black font-semibold">
-              © 2025 Party Time Texas · Confidential Vendor Portal · For Authorized Use Only · All Rights Reserved
+              © Party Time Texas 2025. For authorized vendor and employee use only.
             </p>
           </div>
         </div>

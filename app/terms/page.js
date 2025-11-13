@@ -57,28 +57,50 @@ export default function TermsPage() {
 
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
-      {/* Logo Letterhead */}
+      {/* Logo Letterhead - Legal Document Format */}
       <header className="w-full border-b-2 border-brand-gray bg-brand-white py-6 sticky top-0 z-50 shadow-sm">
-        <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
-            <div className="flex-1 flex justify-center">
+        <div className="container mx-auto px-4 max-w-6xl">
+          {/* Top Row: Logo Left, Company Info Right */}
+          <div className="flex justify-between items-start mb-6">
+            {/* Logo on Left */}
+            <div className="shrink-0">
               <Image 
                 src="/logo.png" 
                 alt="Party Time Texas Logo" 
-                width={300} 
-                height={100}
+                width={250} 
+                height={80}
                 className="h-auto object-contain max-h-20"
                 priority
               />
             </div>
-            <div className="flex-1 flex justify-end">
-              <Link 
-                href="/"
-                className="px-6 py-2 bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
-              >
-                Home
-              </Link>
+            {/* Company Information on Right */}
+            <div className="flex-shrink-0 text-right text-brand-black">
+              <p className="font-semibold mb-1">Olde Glory Entertainment, LLC</p>
+              <p className="mb-1">dba Party Time Texas</p>
+              <p className="mb-1">330 Industrial Blvd. Suite 106</p>
+              <p>McKinney, Texas 75069</p>
             </div>
+          </div>
+          
+          {/* Document Title */}
+          <div className="text-center mb-4">
+            <h1 className="text-2xl md:text-3xl font-bold text-brand-black mb-2">
+              Acknowledgment of Terms and Policies
+            </h1>
+            <div className="text-lg text-brand-gray">
+              <p className="font-semibold">Party Time Texas Independent Contractor Company Policy & Guidelines</p>
+              <p className="mt-1">August 12th, 2025</p>
+            </div>
+          </div>
+          
+          {/* Home Button */}
+          <div className="flex justify-end mt-4">
+            <Link 
+              href="/"
+              className="px-6 py-2 bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
+            >
+              Home
+            </Link>
           </div>
         </div>
       </header>
@@ -86,7 +108,7 @@ export default function TermsPage() {
       <div className="container mx-auto px-4 py-8 flex-1">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sticky Sidebar */}
-          <aside className="lg:w-64 lg:sticky lg:top-32 lg:h-fit">
+          <aside className="lg:w-64 lg:sticky lg:top-[280px] lg:h-fit">
             <div className="bg-white border-2 border-brand-gray rounded-lg p-6 shadow-lg max-h-[calc(90vh-5rem)] overflow-y-auto">
               <Link 
                 href="/"

@@ -143,7 +143,7 @@ export default function AgreementPage() {
               <div className="mb-8">
                 <p className="text-gray-700 text-sm mb-2">ATTACHMENT 2: INDEPENDENT CONTRACTOR AGREEMENT</p>
                 <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
-                  TERMS & CONDITIONS
+                  INDEPENDENT CONTRACTOR AGREEMENT
                 </h1>
                 <p className="text-gray-700 italic">
                   The following clauses are reproduced verbatim from the original Independent Contractor Agreement. Only formatting has been adjusted.

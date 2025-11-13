@@ -143,8 +143,8 @@ export default function TermsPage() {
               <div className="mb-8">
                 <p className="text-gray-700 text-sm mb-2">Independent Contractor Company Policy & Guidelines</p>
                 <p className="text-gray-700 text-sm mb-4">Attachment 1 – Independent Contractor Company Policy & Guidelines</p>
-                <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
-                  Terms & Conditions
+                <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-brand-black mb-4 whitespace-nowrap">
+                  Independent Contractor Company Policy & Guidelines
                 </h1>
               </div>
 

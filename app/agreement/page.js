@@ -142,7 +142,7 @@ export default function AgreementPage() {
             <div className="bg-white border-2 border-brand-gray rounded-lg p-8 md:p-12 shadow-lg">
               <div className="mb-8">
                 <p className="text-gray-700 text-sm mb-2">ATTACHMENT 2: INDEPENDENT CONTRACTOR AGREEMENT</p>
-                <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-4">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-brand-black mb-4 whitespace-nowrap">
                   INDEPENDENT CONTRACTOR AGREEMENT
                 </h1>
                 <p className="text-gray-700 italic">

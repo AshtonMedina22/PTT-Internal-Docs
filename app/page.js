@@ -20,28 +20,28 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-16 flex-1">
+      <main className="container mx-auto px-4 py-8 flex-1">
         <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-8 text-center">
+          <h1 className="text-2xl md:text-3xl font-bold text-brand-black mb-6 text-center">
             Legal Documents
           </h1>
           
           {/* Main Welcome Section */}
-          <div className="max-w-3xl mx-auto mb-20">
-            <div className="text-brand-black space-y-6 text-center">
-              <p className="text-lg md:text-xl leading-relaxed">
+          <div className="max-w-5xl mx-auto mb-12">
+            <div className="text-brand-black space-y-3 text-center">
+              <p className="text-sm md:text-base leading-normal">
                 This page contains our current policies, terms, and expectations for independent contractors and vendors.
               </p>
               
-              <p className="text-lg md:text-xl leading-relaxed">
+              <p className="text-sm md:text-base leading-normal">
                 Access is restricted to authorized recipients. By continuing, you acknowledge this content is confidential and may not be shared.
               </p>
               
-              <p className="text-lg md:text-xl leading-relaxed">
+              <p className="text-sm md:text-base leading-normal">
                 After reviewing the documents, please complete the acknowledgment form in your onboarding email.
               </p>
               
-              <p className="text-lg md:text-xl leading-relaxed pt-2">
+              <p className="text-sm md:text-base leading-normal pt-1">
                 For questions, contact us at <a href="tel:2143408000" className="text-brand-red hover:underline font-semibold">(214) 340-8000</a> or <a href="mailto:sales@partytimetexas.com" className="text-brand-red hover:underline font-semibold">sales@partytimetexas.com</a>.
               </p>
             </div>

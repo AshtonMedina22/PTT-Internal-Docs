@@ -58,7 +58,7 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
       {/* Logo Letterhead - Legal Document Format */}
-      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-6 sticky top-0 z-50 shadow-sm">
+      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-4">
         <div className="container mx-auto px-4 max-w-6xl">
           {/* Top Row: Logo Left, Company Info Right */}
           <div className="flex justify-between items-start mb-6">
@@ -74,7 +74,7 @@ export default function TermsPage() {
               />
             </div>
             {/* Company Information on Right */}
-            <div className="flex-shrink-0 text-right text-brand-black">
+            <div className="shrink-0 text-right text-brand-black">
               <p className="font-semibold mb-1">Olde Glory Entertainment, LLC</p>
               <p className="mb-1">dba Party Time Texas</p>
               <p className="mb-1">330 Industrial Blvd. Suite 106</p>
@@ -108,7 +108,7 @@ export default function TermsPage() {
       <div className="container mx-auto px-4 py-8 flex-1">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sticky Sidebar */}
-          <aside className="lg:w-64 lg:sticky lg:top-[280px] lg:h-fit">
+          <aside className="lg:w-64 lg:sticky lg:top-8 lg:h-fit">
             <div className="bg-white border-2 border-brand-gray rounded-lg p-6 shadow-lg max-h-[calc(90vh-5rem)] overflow-y-auto">
               <Link 
                 href="/"

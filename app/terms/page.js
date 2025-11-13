@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function TermsPage() {
   const [activeSection, setActiveSection] = useState('')
@@ -56,16 +57,28 @@ export default function TermsPage() {
 
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
-      {/* Header with Home button */}
-      <header className="sticky top-0 z-50 bg-brand-white border-b-2 border-brand-gray shadow-sm">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-end">
-            <Link 
-              href="/"
-              className="px-6 py-2 bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
-            >
-              Home
-            </Link>
+      {/* Logo Letterhead */}
+      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-6 sticky top-0 z-50 shadow-sm">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-between items-center">
+            <div className="flex-1 flex justify-center">
+              <Image 
+                src="/logo.png" 
+                alt="Party Time Texas Logo" 
+                width={300} 
+                height={100}
+                className="h-auto object-contain max-h-20"
+                priority
+              />
+            </div>
+            <div className="flex-1 flex justify-end">
+              <Link 
+                href="/"
+                className="px-6 py-2 bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
+              >
+                Home
+              </Link>
+            </div>
           </div>
         </div>
       </header>
@@ -73,7 +86,7 @@ export default function TermsPage() {
       <div className="container mx-auto px-4 py-8 flex-1">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sticky Sidebar */}
-          <aside className="lg:w-64 lg:sticky lg:top-20 lg:h-fit">
+          <aside className="lg:w-64 lg:sticky lg:top-32 lg:h-fit">
             <div className="bg-white border-2 border-brand-gray rounded-lg p-6 shadow-lg max-h-[calc(90vh-5rem)] overflow-y-auto">
               <Link 
                 href="/"

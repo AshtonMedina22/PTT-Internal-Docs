@@ -1,8 +1,25 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
+      {/* Logo Letterhead */}
+      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-6">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-center">
+            <Image 
+              src="/logo.png" 
+              alt="Party Time Texas Logo" 
+              width={300} 
+              height={100}
+              className="h-auto object-contain"
+              priority
+            />
+          </div>
+        </div>
+      </header>
+
       <main className="container mx-auto px-4 py-16 flex-1">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-12 text-center">

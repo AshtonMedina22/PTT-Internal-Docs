@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-brand-white">
-      <div className="container mx-auto px-4 py-16">
+    <div className="min-h-screen bg-brand-white flex flex-col">
+      <main className="container mx-auto px-4 py-16 flex-1">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-brand-black mb-12 text-center">
             Legal Documents
@@ -45,8 +45,19 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-brand-gray bg-opacity-20 border-t-2 border-brand-gray mt-auto">
+        <div className="container mx-auto px-4 py-6">
+          <div className="text-center">
+            <p className="text-brand-black font-semibold">
+              Party Time Texas 2025
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
   )
 }
 

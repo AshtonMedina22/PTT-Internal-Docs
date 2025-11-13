@@ -55,12 +55,26 @@ export default function AgreementPage() {
   }
 
   return (
-    <div className="min-h-screen bg-brand-white">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen bg-brand-white flex flex-col">
+      {/* Header with Home button */}
+      <header className="sticky top-0 z-50 bg-brand-white border-b-2 border-brand-gray shadow-sm">
+        <div className="container mx-auto px-4 py-4">
+          <div className="flex justify-end">
+            <Link 
+              href="/"
+              className="px-6 py-2 bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
+            >
+              Home
+            </Link>
+          </div>
+        </div>
+      </header>
+
+      <div className="container mx-auto px-4 py-8 flex-1">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sticky Sidebar */}
-          <aside className="lg:w-64 lg:sticky lg:top-8 lg:h-fit">
-            <div className="bg-white border-2 border-brand-gray rounded-lg p-6 shadow-lg">
+          <aside className="lg:w-64 lg:sticky lg:top-20 lg:h-fit">
+            <div className="bg-white border-2 border-brand-gray rounded-lg p-6 shadow-lg max-h-[calc(90vh-5rem)] overflow-y-auto">
               <Link 
                 href="/"
                 className="text-brand-red hover:text-brand-gold mb-6 inline-block font-semibold transition-colors"
@@ -512,6 +526,17 @@ export default function AgreementPage() {
           </main>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="bg-brand-gray bg-opacity-20 border-t-2 border-brand-gray mt-auto">
+        <div className="container mx-auto px-4 py-6">
+          <div className="text-center">
+            <p className="text-brand-black font-semibold">
+              Party Time Texas 2025 • Agreement
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

@@ -27,26 +27,22 @@ export default function Home() {
           </h1>
           
           {/* Main Welcome Section */}
-          <div className="max-w-4xl mx-auto mb-20">
-            <h2 className="text-2xl md:text-3xl font-bold text-brand-black mb-6 text-center">
-              Welcome to the Party Time Texas Confidential Vendor Portal
-            </h2>
-            
-            <div className="text-brand-black space-y-5">
-              <p className="text-base md:text-lg leading-relaxed">
-                This private page includes our current company policies, terms, and expectations for independent contractors and vendors working with our team.
+          <div className="max-w-3xl mx-auto mb-20">
+            <div className="text-brand-black space-y-6 text-center">
+              <p className="text-lg md:text-xl leading-relaxed">
+                This page contains our current policies, terms, and expectations for independent contractors and vendors.
               </p>
               
-              <p className="text-base md:text-lg leading-relaxed">
-                Access is intended only for recipients who have been provided this link. By continuing, you acknowledge the content is confidential and not to be shared or distributed.
+              <p className="text-lg md:text-xl leading-relaxed">
+                Access is restricted to authorized recipients. By continuing, you acknowledge this content is confidential and may not be shared.
               </p>
               
-              <p className="text-base md:text-lg leading-relaxed">
-                After reviewing the documents, please complete the acknowledgment form provided in your onboarding email to confirm your review and agreement.
+              <p className="text-lg md:text-xl leading-relaxed">
+                After reviewing the documents, please complete the acknowledgment form in your onboarding email.
               </p>
               
-              <p className="text-base md:text-lg leading-relaxed pt-4">
-                For any questions, please contact us at <a href="tel:2143408000" className="text-brand-red hover:underline font-semibold">(214) 340-8000</a> or <a href="mailto:sales@partytimetexas.com" className="text-brand-red hover:underline font-semibold">sales@partytimetexas.com</a>.
+              <p className="text-lg md:text-xl leading-relaxed pt-2">
+                For questions, contact us at <a href="tel:2143408000" className="text-brand-red hover:underline font-semibold">(214) 340-8000</a> or <a href="mailto:sales@partytimetexas.com" className="text-brand-red hover:underline font-semibold">sales@partytimetexas.com</a>.
               </p>
             </div>
           </div>

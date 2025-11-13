@@ -28,22 +28,28 @@ export default function Home() {
           
           {/* Main Welcome Section */}
           <div className="max-w-4xl mx-auto mb-16">
-            <div className="bg-white border-2 border-brand-gray rounded-lg p-8 shadow-lg">
-              <p className="text-brand-black text-lg leading-relaxed mb-4">
-                Welcome to the Party Time Texas Confidential Vendor Portal.
-              </p>
-              <p className="text-brand-black text-lg leading-relaxed mb-4">
-                This private portal contains key company policies, terms, and operating expectations for independent contractors and vendors who are engaged for events, services, or special assignments with our team.
-              </p>
-              <p className="text-brand-black text-lg leading-relaxed mb-4">
-                Access to this site is provided exclusively to intended recipients for the purpose of reviewing the current policies and agreement terms. By continuing, you acknowledge this portal is private and may not be shared, forwarded, or discussed with third parties.
-              </p>
-              <p className="text-brand-black text-lg leading-relaxed mb-4">
-                After reviewing the content in each section, please complete and submit the acknowledgment form linked in your onboarding message to confirm your review and acceptance of these materials. Your agreement ensures we can move forward with your engagement in a compliant and coordinated way.
-              </p>
-              <p className="text-brand-black text-lg leading-relaxed">
-                If you have any questions, contact your assigned point of contact or email us directly at <a href="mailto:operations@partyTimeTexas.com" className="text-brand-red hover:underline font-semibold">operations@partyTimeTexas.com</a>.
-              </p>
+            <div className="bg-white border-2 border-brand-gray rounded-lg p-10 md:p-12 shadow-lg">
+              <div className="space-y-6">
+                <p className="text-brand-black text-xl md:text-2xl font-semibold leading-relaxed">
+                  Welcome to the Party Time Texas Confidential Vendor Portal.
+                </p>
+                
+                <p className="text-brand-black text-base md:text-lg leading-relaxed">
+                  This private page includes our current company policies, terms, and expectations for independent contractors and vendors working with our team.
+                </p>
+                
+                <p className="text-brand-black text-base md:text-lg leading-relaxed">
+                  Access is intended only for recipients who have been provided this link. By continuing, you acknowledge the content is confidential and not to be shared or distributed.
+                </p>
+                
+                <p className="text-brand-black text-base md:text-lg leading-relaxed">
+                  After reviewing the documents, please complete the acknowledgment form provided in your onboarding email to confirm your review and agreement.
+                </p>
+                
+                <p className="text-brand-black text-base md:text-lg leading-relaxed pt-2">
+                  For any questions, please contact us at <a href="tel:2143408000" className="text-brand-red hover:underline font-semibold">(214) 340-8000</a> or <a href="mailto:sales@partytimetexas.com" className="text-brand-red hover:underline font-semibold">sales@partytimetexas.com</a>.
+                </p>
+              </div>
             </div>
           </div>
           

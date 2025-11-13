@@ -145,9 +145,6 @@ export default function AgreementPage() {
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-brand-black mb-4 whitespace-nowrap">
                   INDEPENDENT CONTRACTOR AGREEMENT
                 </h1>
-                <p className="text-gray-700 italic">
-                  The following clauses are reproduced verbatim from the original Independent Contractor Agreement. Only formatting has been adjusted.
-                </p>
               </div>
 
               {/* Engagement of Services */}

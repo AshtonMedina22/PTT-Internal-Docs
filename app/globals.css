@@ -1,6 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-brand-white: #FFFFFF;
+  --color-brand-black: #040303;
+  --color-brand-gold: #D4BF91;
+  --color-brand-red: #A4031F;
+  --color-brand-gray: #B2B4B3;
+  
+  --font-sans: var(--font-open-sans), sans-serif;
+}
 
 @layer base {
   body {

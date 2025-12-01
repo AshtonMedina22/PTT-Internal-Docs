@@ -58,45 +58,41 @@ export default function TermsConditionsPage() {
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
       {/* Logo Letterhead - Legal Document Format */}
-      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-2">
+      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-1">
         <div className="container mx-auto px-4 max-w-6xl">
           {/* Top Row: Logo Left, Company Info Right */}
-          <div className="flex justify-between items-start mb-2">
+          <div className="flex justify-between items-center mb-1">
             {/* Logo on Left */}
             <div className="shrink-0">
               <Image 
                 src="/logo.png" 
                 alt="Party Time Texas Logo" 
-                width={250} 
-                height={80}
-                className="h-auto object-contain max-h-16"
+                width={200} 
+                height={60}
+                className="h-auto object-contain max-h-10"
                 priority
               />
             </div>
             {/* Company Information on Right */}
-            <div className="shrink-0 text-right text-brand-black text-sm">
-              <p className="font-semibold mb-0.5">Olde Glory Entertainment, LLC</p>
-              <p className="mb-0.5">dba Party Time Texas</p>
-              <p className="mb-0.5">330 Industrial Blvd. Suite 106</p>
-              <p>McKinney, Texas 75069</p>
+            <div className="shrink-0 text-right text-brand-black text-xs">
+              <p className="font-semibold mb-0 leading-tight">Olde Glory Entertainment, LLC</p>
+              <p className="mb-0 leading-tight">dba Party Time Texas</p>
+              <p className="mb-0 leading-tight">330 Industrial Blvd. Suite 106</p>
+              <p className="leading-tight">McKinney, Texas 75069</p>
             </div>
           </div>
           
-          {/* Document Title */}
-          <div className="text-center mb-2">
-            <h1 className="text-xl md:text-2xl font-bold text-brand-black mb-1">
-              Terms & Conditions
-            </h1>
-            <div className="text-sm text-brand-black">
-              <p className="text-gray-700">August 12th, 2025</p>
+          {/* Document Title and Home Button Row */}
+          <div className="flex justify-between items-center mb-1">
+            <div className="text-center flex-1">
+              <h1 className="text-lg md:text-xl font-bold text-brand-black mb-0 leading-tight">
+                Terms & Conditions
+              </h1>
+              <p className="text-xs text-gray-700 mt-0.5">August 12th, 2025</p>
             </div>
-          </div>
-          
-          {/* Home Button */}
-          <div className="flex justify-end">
             <Link 
               href="/"
-              className="px-4 py-1.5 text-sm bg-brand-red text-brand-white font-semibold rounded-lg hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
+              className="px-3 py-0.5 text-xs bg-brand-red text-brand-white font-semibold rounded hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
             >
               Home
             </Link>

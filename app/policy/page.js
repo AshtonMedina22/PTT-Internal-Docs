@@ -58,44 +58,45 @@ export default function PolicyPage() {
   return (
     <div className="min-h-screen bg-brand-white flex flex-col">
       {/* Logo Letterhead - Legal Document Format */}
-      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-1">
+      <header className="w-full border-b-2 border-brand-gray bg-brand-white py-0.5">
         <div className="container mx-auto px-4 max-w-6xl">
-          {/* Top Row: Logo Left, Company Info Right */}
-          <div className="flex justify-between items-center mb-1">
-            {/* Logo on Left */}
+          {/* Single Row: Logo, Title, Company Info, Home Button */}
+          <div className="flex justify-between items-center gap-2">
+            {/* Logo */}
             <div className="shrink-0">
               <Image 
                 src="/logo.png" 
                 alt="Party Time Texas Logo" 
-                width={200} 
-                height={60}
-                className="h-auto object-contain max-h-10"
+                width={150} 
+                height={45}
+                className="h-auto object-contain max-h-8"
                 priority
               />
             </div>
-            {/* Company Information on Right */}
-            <div className="shrink-0 text-right text-brand-black text-xs">
-              <p className="font-semibold mb-0 leading-tight">Olde Glory Entertainment, LLC</p>
-              <p className="mb-0 leading-tight">dba Party Time Texas</p>
-              <p className="mb-0 leading-tight">330 Industrial Blvd. Suite 106</p>
-              <p className="leading-tight">McKinney, Texas 75069</p>
-            </div>
-          </div>
-          
-          {/* Document Title and Home Button Row */}
-          <div className="flex justify-between items-center mb-1">
-            <div className="text-center flex-1">
-              <h1 className="text-lg md:text-xl font-bold text-brand-black mb-0 leading-tight">
+            
+            {/* Document Title */}
+            <div className="text-center flex-1 min-w-0">
+              <h1 className="text-base md:text-lg font-bold text-brand-black leading-tight">
                 Company Policy & Guidelines
               </h1>
-              <p className="text-xs text-gray-700 mt-0.5">August 12th, 2025</p>
+              <p className="text-xs text-gray-700 leading-tight">August 12th, 2025</p>
             </div>
-            <Link 
-              href="/"
-              className="px-3 py-0.5 text-xs bg-brand-red text-brand-white font-semibold rounded hover:bg-brand-gold hover:text-brand-black transition-colors duration-200"
-            >
-              Home
-            </Link>
+            
+            {/* Company Info and Home Button */}
+            <div className="shrink-0 flex items-center gap-3">
+              <div className="text-right text-brand-black text-xs leading-tight">
+                <p className="font-semibold">Olde Glory Entertainment, LLC</p>
+                <p>dba Party Time Texas</p>
+                <p>330 Industrial Blvd. Suite 106</p>
+                <p>McKinney, Texas 75069</p>
+              </div>
+              <Link 
+                href="/"
+                className="px-2 py-0.5 text-xs bg-brand-red text-brand-white font-semibold rounded hover:bg-brand-gold hover:text-brand-black transition-colors duration-200 whitespace-nowrap"
+              >
+                Home
+              </Link>
+            </div>
           </div>
         </div>
       </header>

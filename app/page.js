@@ -48,40 +48,6 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-6">
-            {/* Terms and Conditions Box */}
-            <Link 
-              href="/terms"
-              className="group relative bg-white border-2 border-brand-gray hover:border-brand-gold transition-all duration-300 rounded-lg p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            >
-              <div className="absolute top-0 right-0 w-20 h-20 bg-brand-gold opacity-10 group-hover:opacity-20 transition-opacity rounded-bl-full"></div>
-              <h2 className="text-xl md:text-2xl font-bold text-brand-black mb-3 group-hover:text-brand-red transition-colors">
-                Terms and Conditions
-              </h2>
-              <p className="text-brand-gray text-base">
-                View Our Independent Contractor Company Policy & Guidelines
-              </p>
-              <div className="mt-4 text-brand-red font-semibold group-hover:translate-x-2 transition-transform inline-block">
-                View Document →
-              </div>
-            </Link>
-
-            {/* Agreement Box */}
-            <Link 
-              href="/agreement"
-              className="group relative bg-white border-2 border-brand-gray hover:border-brand-gold transition-all duration-300 rounded-lg p-6 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            >
-              <div className="absolute top-0 right-0 w-20 h-20 bg-brand-gold opacity-10 group-hover:opacity-20 transition-opacity rounded-bl-full"></div>
-              <h2 className="text-xl md:text-2xl font-bold text-brand-black mb-3 group-hover:text-brand-red transition-colors">
-                Agreement
-              </h2>
-              <p className="text-brand-gray text-base">
-                View Our Independent Contractor Agreement
-              </p>
-              <div className="mt-4 text-brand-red font-semibold group-hover:translate-x-2 transition-transform inline-block">
-                View Document →
-              </div>
-            </Link>
-
             {/* Company Policy & Guidelines Box */}
             <Link 
               href="/policy"
